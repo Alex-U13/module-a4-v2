@@ -1,0 +1,79 @@
+@font-face {
+    src: url("//fonts/Play-Regular.ttf");
+    font-family: "Play Regular";
+}
+
+p,
+ul {
+    font-family: "Play Regular", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+body {
+    background-color: bisque;
+}
+
+.header {
+    background-color: rgb(174, 255, 127);
+    padding: 10px;
+    position: sticky;
+    text-align: center;
+    font-family: "Play Regular", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+.header-link {
+    padding: 15px;
+    margin: 0px;
+    color: black;
+}
+
+.header-link:hover {
+    color: blue;
+}
+
+.title {
+    text-align: center;
+}
+
+.subh1 {
+    font-size: 0.75em;
+}
+
+.main {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.img {
+    border: solid darkgreen 2px;
+    padding: 20px;
+}
+
+.block-main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-self: flex-start;
+    min-width: 40%;
+    padding-left: 0.5em;
+}
+
+.subtitle {
+    color: grey;
+    margin: 0px;
+}
+
+.history {
+    justify-content: center;
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    color: black;
+}
